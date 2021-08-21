@@ -1,0 +1,22 @@
+{
+  "name": "mountaintours",
+  "version": "1.0.0",
+  "description": "Landing page for MountainTours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exece/MountainTours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exece/MountainTours/issues"
+  },
+  "homepage": "https://github.com/exece/MountainTours#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
