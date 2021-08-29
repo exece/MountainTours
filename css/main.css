@@ -276,19 +276,19 @@ body {
 }
 
 .item-5 {
-  -ms-grid-column: 4;
+  -ms-grid-column: 3;
   -ms-grid-column-span: 1;
-  grid-column: 4 / 5;
+  grid-column: 3 / 4;
   -ms-grid-row: 2;
   grid-row: 2;
 }
 
 .item-6 {
-  -ms-grid-column: 1;
+  -ms-grid-column: 4;
   -ms-grid-column-span: 1;
-  grid-column: 1 / 2;
-  -ms-grid-row: 3;
-  grid-row: 3;
+  grid-column: 4 / 5;
+  -ms-grid-row: 2;
+  grid-row: 2;
 }
 
 .item-7 {
@@ -500,9 +500,49 @@ body {
           transform: scale(0.95);
 }
 
-.section-about {
+.section-about-header {
   background-color: #f7f7f7;
   padding: 250px 0 0 0;
   margin-top: -20vh;
+}
+
+.section-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-about > * {
+  padding: 1rem 5rem;
+  margin: 10px 5%;
+}
+
+.section-about-text {
+  width: 50%;
+}
+
+.section-about-composition {
+  width: 50%;
+}
+
+.section-feature-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-feature-box > * {
+  padding: 1rem 5rem;
+  margin: 10px 5%;
+}
+
+.section-features {
+  padding: 20rem 0;
 }
 /*# sourceMappingURL=main.css.map */
