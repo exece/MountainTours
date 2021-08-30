@@ -171,6 +171,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: #777;
+  margin-bottom: 2rem;
 }
 
 .paragraph {
@@ -500,6 +501,56 @@ body {
           transform: scale(0.95);
 }
 
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.6rem;
+  padding: 2.5rem;
+  margin: 2.5rem;
+  width: 15%;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1.5rem 4rem rbga(#000, 0.15);
+          box-shadow: 0 1.5rem 4rem rbga(#000, 0.15);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.feature-box__icon {
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485));
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  background-clip: text;
+  color: transparent;
+}
+
+.feature-box:hover {
+  -webkit-transform: translateY(-1.5rem) scale(1.03);
+          transform: translateY(-1.5rem) scale(1.03);
+}
+
+.feature-box__text {
+  font-size: 1.6rem;
+}
+
+.card {
+  -webkit-perspective: 150rem;
+          perspective: 150rem;
+  -moz-perspective: 150rem;
+  background-color: orangered;
+  height: 50rem;
+  width: 20%;
+  margin: 5rem;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.card:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
 .section-about-header {
   background-color: #f7f7f7;
   padding: 250px 0 0 0;
@@ -528,21 +579,37 @@ body {
   width: 50%;
 }
 
-.section-feature-box {
+.section-features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.section-feature-box > * {
-  padding: 1rem 5rem;
-  margin: 10px 5%;
-}
-
-.section-features {
+  -ms-flex-line-pack: center;
+      align-content: center;
   padding: 20rem 0;
+  margin: 10rem 0;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56fcc), to(#28b485cc)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, #7ed56fcc, #28b485cc), url(../img/nat-4.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+          clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.section-tours {
+  background-color: #f7f7f7;
+  padding: 5rem 0 50rem 0;
+  margin-top: -10rem;
+}
+
+.section-tours-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */

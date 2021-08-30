@@ -22,16 +22,33 @@
     }
 }
 
-.section-feature-box {
+.section-features {
     display: flex;
     justify-content: center;
+    align-content: center;
+    padding: 20rem 0;
+    margin: 10rem 0;
+    background-image: linear-gradient(
+        to right bottom,
+        #{$color-primary-light}cc,
+        #{$color-primary-dark}cc
+      ),
+      url(../img/nat-4.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
 
-    & > * {
-        padding: 1rem 5rem ;
-        margin: 10px 5%;
-      }
 }
 
-.section-features {
-    padding: 20rem 0;
+.section-tours {
+    background-color: $color-grey-light-1;
+    padding: 5rem 0 50rem 0;
+    margin-top: -10rem;
+
+    &-flex {
+        display: flex;
+        justify-content: center;
+
+    }
+
 }
